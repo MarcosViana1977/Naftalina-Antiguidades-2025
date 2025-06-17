@@ -2,9 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loja de Antiguidades</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Antiguidades & Memórias</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Fonte antiga estilo manuscrito -->
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -20,39 +23,51 @@
 
   <section id="sobre" class="container">
     <h2>Sobre a Loja</h2>
-    <p>Bem-vindo à nossa loja de antiguidades! Aqui você encontra relíquias que contam histórias. Cada peça é única e cheia de charme do passado.</p>
+    <p>Desde 1972, colecionamos peças únicas que contam histórias. Aqui, o tempo ganha forma através de cada relíquia cuidadosamente preservada.</p>
   </section>
 
   <section id="itens" class="container">
     <h2>Itens em Destaque</h2>
     <div class="galeria">
       <div class="item">
-        <img src="https://via.placeholder.com/200x150?text=Telefone+Vintage" alt="Telefone Antigo">
-        <h3>Telefone Vintage</h3>
-        <p>Década de 40, funcionando perfeitamente.</p>
+        <img src="https://via.placeholder.com/200x150?text=Vitrola+Antiga" alt="Vitrola Antiga">
+        <h3>Vitrola Clássica</h3>
+        <p>Reproduz discos de vinil com som autêntico. R$ 480,00</p>
+        <button class="btn-vintage">Comprar</button>
       </div>
       <div class="item">
-        <img src="https://via.placeholder.com/200x150?text=Rel%C3%B3gio+de+Bolso" alt="Relógio de Bolso">
-        <h3>Relógio de Bolso</h3>
-        <p>Relógio mecânico com gravações originais.</p>
+        <img src="https://via.placeholder.com/200x150?text=C%C3%A2mera+Antiga" alt="Câmera Antiga">
+        <h3>Câmera Analógica Kodak</h3>
+        <p>Peça de colecionador rara. R$ 350,00</p>
+        <button class="btn-vintage">Comprar</button>
       </div>
       <div class="item">
-        <img src="https://via.placeholder.com/200x150?text=R%C3%A1dio+Antigo" alt="Rádio de Madeira">
-        <h3>Rádio Antigo</h3>
-        <p>Modelo raro com acabamento em madeira nobre.</p>
+        <img src="https://via.placeholder.com/200x150?text=R%C3%A1dio+Vintage" alt="Rádio Vintage">
+        <h3>Rádio de Madeira</h3>
+        <p>Sintoniza AM/FM com visual retrô. R$ 290,00</p>
+        <button class="btn-vintage">Comprar</button>
       </div>
     </div>
   </section>
 
   <section id="contato" class="container">
-    <h2>Entre em Contato</h2>
-    <p>Email: contato@antiguidades.com.br</p>
-    <p>Telefone: (11) 99999-9999</p>
+    <h2>Contato</h2>
+    <form class="formulario">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit" class="btn-vintage">Enviar</button>
+    </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 Antiguidades & Memórias. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Antiguidades & Memórias. Feito com amor e história.</p>
   </footer>
 </body>
 </html>
-
